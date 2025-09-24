@@ -1,2 +1,4 @@
 # TFboys-girls_Kaggle_Challenge1
 25fall si670 kaggle1
+
+Our approach to this classification problem involved a multi-stage process, beginning with text data preprocessing using TF-IDF vectorization to convert the corpus into a matrix of TF-IDF features. We then employed a logistic regression model as our baseline classifier. To optimize performance, we systematically tuned several key hyperparameters, including the upper and lower bounds for TF-IDF, the regularization term (L1 vs. L2), the regularization parameter, and the choice of solver. The primary metric for our model's success was the F1 score on a validation set. Finally, we fine-tuned the prediction probability threshold to further enhance the F1 score, ensuring our model was well-calibrated for the specific classification task at hand.
